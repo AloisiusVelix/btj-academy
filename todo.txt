@@ -1,0 +1,3 @@
+{"nama": "membuat repository di GitHub", "prio": "high", "status": "to do"}
+{"nama": "membuat file README.md", "prio": "medium", "status": "to do"}
+{"nama": "commit ke repository", "prio": "high", "status": "to do"}
