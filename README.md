@@ -8,11 +8,11 @@ git clone https://github.com/AloisiusVelix/btj-academy.git
 ```
 
 ## Simple Task
-* [Buatlah image dari aplikasi sederhana yang sudah dibuat.](https://github.com/AloisiusVelix/btj-academy#buat-image)
-* [Jalankan image tersebut sebagai container dan berjalan pada port 8081](https://github.com/AloisiusVelix/btj-academy#jalankan-image)
-* [Berapakah IP docker container whoami?](https://github.com/AloisiusVelix/btj-academy#IP-whoami)
-* [Apa isi dari file yang tersembunyi dari docker container whoami? Clue: Volume Mounting](https://github.com/AloisiusVelix/btj-academy#hidden-file-whoami)
-* [Image apa yang digunakan pada docker container whoami?](https://github.com/AloisiusVelix/btj-academy#image-whoami)
+1. [Buatlah image dari aplikasi sederhana yang sudah dibuat.](https://github.com/AloisiusVelix/btj-academy#buat-image)
+2. [Jalankan image tersebut sebagai container dan berjalan pada port 8081](https://github.com/AloisiusVelix/btj-academy#jalankan-image)
+3. [Berapakah IP docker container whoami?](https://github.com/AloisiusVelix/btj-academy#ip-whoami)
+4. [Apa isi dari file yang tersembunyi dari docker container whoami? Clue: Volume Mounting](https://github.com/AloisiusVelix/btj-academy#hidden-file-whoami)
+5. [Image apa yang digunakan pada docker container whoami?](https://github.com/AloisiusVelix/btj-academy#image-whoami)
 
 ## Buat Image
 Masuk ke directory btj-academy, di dalamnya buatlah Dockerfile dengan konten sebagai berikut :
