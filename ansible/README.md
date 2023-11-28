@@ -2,8 +2,8 @@
 by Aloisius Gonzaga Yovelix Waskita Ardell
 
 ## Simple Task
-1. [Buatlah sebuah inventory, pada inventory tersebut mendefinisikan daftar variables dan hosts]()
-2. [Buatlah satu playbook dengan task menjalankan sebuah doker container dengan kriteria yaitu terdapat image, port dan environtment variables]()
+1. [Buatlah sebuah inventory, pada inventory tersebut mendefinisikan daftar variables dan hosts](https://github.com/AloisiusVelix/btj-academy/tree/main/ansible#inventory)
+2. [Buatlah satu playbook dengan task menjalankan sebuah doker container dengan kriteria yaitu terdapat image, port dan environtment variables](https://github.com/AloisiusVelix/btj-academy/tree/main/ansible#playbook)
 
 ## Inventory
 Untuk membuat sebuah inventory, kita dapat menambahkan file inventory.yaml dengan konten sebagai berikut:
