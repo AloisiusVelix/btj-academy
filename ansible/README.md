@@ -30,7 +30,7 @@ Untuk membuat playbook untuk menjalankan sebuah docker container yang sudah ada 
         image: "{{ image }}"
         state: started
         ports:
-          - "80"
+          - "80:80"
         env:
           NAME: "{{ name }}"
           IMAGE: "{{ image }}"
