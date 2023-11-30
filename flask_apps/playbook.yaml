@@ -1,0 +1,40 @@
+- name: Copy, Deploy and Run Flask App with Docker
+  hosts: btj-academy
+  become: true
+
+  tasks:
+    - name: Copy app.py to btj-academy's server
+      copy:
+        src: "{{ local_path }}/app.py"
+        dest: "{{ remote_path }}/app.py"
+      become: true
+
+    - name: Copy requirement.txt to btj-academy's server
+      copy:
+        src: "{{ local_path }}/Dockerfile"
+        dest: "{{ remote_path }}/Dockerfile"
+      become: true
+
+    - name: Copy Dockerfile to btj-academy's server
+      ansible.builtin.copy:
+        src: "{{ local_path }}/requirements.txt"
+        dest: "{{ remote_path }}/requirements.txt"
+      become: true
+
+    - name: Build image for app.py
+      docker_image:
+        name: "{{ image_name }}"
+        build:
+          path: "{{ remote_path }}/"
+          dockerfile: "{{ remote_path }}/Dockerfile"
+          pull: yes
+        source: build
+
+    - name: Run docker container
+      docker_container:
+        name: "{{ container_name }}"
+        image: "{{ image_name }}"
+        ports:
+          - "5555:5555"
+        detach: yes
+      become: true

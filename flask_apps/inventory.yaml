@@ -1,0 +1,9 @@
+all:
+  hosts:
+    btj-academy:
+      ansible_host: 10.184.0.100
+  vars:
+    remote_path: /home/aloisiusgonzaga/python-apps
+    local_path: /zaga
+    image_name: zaga-apps:latest
+    container_name: zagaapps
