@@ -1,7 +1,0 @@
-all:
-  hosts:
-    btj-academy:
-      ansible_host: 10.184.0.100
-  vars:
-    image: todoapps:v1.1
-    name: zaga
