@@ -8,11 +8,11 @@ $ git clone https://github.com/rrw-bangunindo/btj-academy
 ```
 
 ## Simple Task
-1. [Pada example python app, tambahkan beberapa routing kemudian custom port yang di listen (Default 5000)](https://github.com/AloisiusVelix/btj-academy/flask_apps#custom-route-dan-port-example-python-apps)
+1. [Pada example python app, tambahkan beberapa routing kemudian custom port yang di listen (Default 5000)](https://github.com/AloisiusVelix/btj-academy/blob/main/flask_apps/README.md#custom-route-dan-port-example-python-apps)
 2. [Buatlah satu playbook dengan beberapa task yaitu:
 a. Menyalin file dari local ke server btj-academy
 b. Build docker image untuk example python app
-c. Jalankan container yang sudah di build](https://github.com/AloisiusVelix/btj-academy/flask_apps#playbook-to-run-python-apps)
+c. Jalankan container yang sudah di build](https://github.com/AloisiusVelix/btj-academy/blob/main/flask_apps/README.md#playbook-to-run-python-apps)
 
 ## Custom Route dan Port Example Python Apps
 Setelah kita melakukan clone repository, kita akan mengubah routing dan juga port dari app.py sebagai berikut:
